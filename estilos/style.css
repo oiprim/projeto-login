@@ -34,12 +34,13 @@ section#login{
     
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.486);
 
     transition: width .2s, heigh .2s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+
 }
 
 section#login > div#imagem {
@@ -90,11 +91,11 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-13px);
 
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
